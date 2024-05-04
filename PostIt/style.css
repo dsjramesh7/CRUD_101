@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.leftform {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.leftform button {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+}
+
+.right {
+  margin-top: 1rem;
+}
+
+.singlePost {
+  margin-top: 1rem;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+#options {
+  display: flex;
+  gap: 2rem;
+}
+
+#options button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+}
